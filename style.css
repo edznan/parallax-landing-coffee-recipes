@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :root {
-    --primary-color: #2d2254;
-    --secondary-color: #f5c42f;
-    --text-color: #c5bbec;
+    --primary-color: #101010;
+    --secondary-color: #a9927d;
+    --text-color: #aa7c73;
 }
 
 * {
@@ -15,7 +15,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: var(--primary-color);
-    color: #fff;
+    color: var(--text-color);
     font-size: 1.8rem;
     line-height: 1.6;
 }
@@ -75,7 +75,7 @@ section {
 
 .background-image {
     min-height: 500px;
-    background: url('img/coffee-bg.jpg') no-repeat center center/cover;
+    background: url('https://edz-j.com/public_assets/coffee-bg.jpg') no-repeat center center/cover;
     opacity: .4;
     height: 100%;
 }
@@ -101,7 +101,6 @@ section {
 
 .section-intro {
     min-height: 700px;
-    background: url('https://i.ibb.co/bsX6RV0/bg2.png') no-repeat center center/cover;
 }
 
 .section-intro h2 {
